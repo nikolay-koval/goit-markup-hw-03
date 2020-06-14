@@ -1,0 +1,241 @@
+/*Стили для index.html*/
+:root {
+    --primary-text-color: white;
+    --title-text-color: #212121;
+    --second-text-color: #757575;
+    --accent-color: #2196F3;
+    --footer-color: #2F303A;
+    }
+    body {
+        background-color: var(--primary-text-color);
+        color: var(--title-text-color);
+        font-family: Roboto, sans-serif;
+    }
+a.logo {
+        font-family: Raleway, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        color: var(--title-text-color);
+    }
+    .logo-header {
+        color: var(--main-textcolor);
+    }
+    .hero {
+        text-align: center;
+    }
+    .hero-titel {
+color: var(--primary-text-color);
+margin-top: 0;
+margin-bottom: 30px;
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+    }
+    .hero-titel {
+background: rgba(47, 48, 58, 0.8);
+    }
+ul {
+    list-style-type: none;
+    color: inherit;
+    }
+    .title {
+color: var(--title-text-color);
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+    }
+    .title-text {
+        color: var(--second-text-color);
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+width: 270px;
+height: 75px;
+left: 515px;
+top: 950px;
+    }
+   .list {
+       color: var(--title-text-color);
+       font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+text-align: center;
+letter-spacing: 0.03em;
+   }
+   .list-title {
+color: var(--primary-text-color);
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.03em;
+background: rgba(47, 48, 58, 0.8);
+border-radius: 0px 0px 4px 4px;
+width: 370px;
+height: 70px;
+   }
+/*Убирает подчеткивание в ссылках*/
+a {
+    text-decoration: none;  
+}
+/* лого #2196F3, #000000 */
+.logo  { 
+    color: #000;
+    font-family: Raleway; 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+}
+.logo {
+color: #000000;
+ font-family: Raleway, cursive; 
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+}
+.accent-logo {
+color: var(--accent-color);
+}
+.stud {
+color: white;
+}
+/* Footer bg #2F303A */
+footer {
+    background-color: var(--footer-color);
+    width: 1600px;
+height: 253px;
+left: 1px;
+top: 2765px;
+}
+/* цвет основного текста #212121 */
+.site-nav a{
+    color: #212121;
+}
+/* вторичный цвет  текста #757575 */
+p {
+    color:#757575 ;
+}
+/* белый цвет  текста #FFFFF */
+.accent-mail {
+    color: var(--accent-color);
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
+.accent-number {
+    color: var(--second-text-color);
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+}
+.street {
+    color: var(--primary-text-color);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    width: 231px;
+letter-spacing: 0.03em;
+}
+.down-mail {
+color: rgba(255, 255, 255, 0.6);
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+}
+.down-number {
+    color: rgba(255, 255, 255, 0.6);
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+}
+
+.site-nav .link.curent:hover,
+.site-nav .link.curent:focus {
+    color: #2196F3;
+}
+.site-nav .link{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+.social-links .link {
+    color: #AFB1B8;
+}
+.social-links .link.curent:hover,
+.social-links .link.curent:focus {
+    color: #2196F3;
+}
+.social-linksfooter .link {
+    color: white;
+}
+.social-linksfooter .link.curent:hover,
+.social-linksfooter .link.curent:focus {
+    color: #2196F3;
+}
+.social-connecting {
+    color: var(--primary-text-color);
+    font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.connecting-for {
+color: var(--primary-text-color);
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+  .button.primary:hover {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+  }
+  .hero-button {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 10px 32px;
+    min-width: 200px;
+    background: #2196F3;
+    color: var(--primary-text-color);
+    font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+/*header*/
+.top-line {
+    background-color: #ffffff;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1170px;
+    outline: 2px solid tomato;
+}
+
+
+
