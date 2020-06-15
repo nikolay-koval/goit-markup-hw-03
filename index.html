@@ -12,11 +12,12 @@
     />
 </head>
 <body>
-<header class="top-line">
+     <!-- Шапка сайта -->
+<header class="site-header">
     <nav class="container"> 
         <a href="./index.html" class="logo">
             <span class="accent-logo">Web</span> Studio</a>
-    <ul class="site-nav link">
+    <ul class="site-nav">
         <li><a href="" class="link curent">Студия</a></li>
         <li><a href="./portfolio.html" class="link">Портфолио</a></li>
         <li><a href="" class="link">Контакты</a></li>
@@ -33,42 +34,43 @@
         <h1 class="hero-titel">Эффективные решения <br/> для вашего бизнеса</h1> 
         <a href="" class="hero-button">Заказать услуги</a>
     </section>
+     <!--Наши преймущества-->
     <section class="title">
         <div class="container">      
-            <h1>Наши преймущества</h1>
-            <ul>
-                <li>
+            <ul class="first-title">
+                <li class="features-section">
                     <a href=""><img src="images/antenna.svg" alt="Внимание к деталям" width="70" /></a>
-                    <h2 class="section-title">Внимание к деталям</h2> 
+                    <h2 class="section-details">Внимание к деталям </h2> 
                     <p class="title-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                 </li>
             </ul>
-            <ul>
-                <li>
+            <ul class="second-title">
+                <li class="features-section">
                     <a href=""><img src="images/clock.svg" alt="Пунктуальность" width="70" /></a>
-                    <h2>Пунктуальность</h2>
+                    <h2 class="section-punctuality">Пунктуальность</h2>
                     <p class="title-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                 </li>
             </ul>
-            <ul>
-                <li>
+            <ul class="third-title">
+                <li class="features-section">
                     <a href=""><img src="images/diagram.svg" alt="Планирование" width="70" /></a>
-                    <h2>Планирование</h2> 
+                    <h2 class="section-planing">Планирование</h2> 
                     <p class="title-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                 </li>
             </ul>
-            <ul>
-                <li>
+            <ul class="fourth-title">
+                <li class="features-section">
                     <a href=""><img src="images/astronaut.svg" alt="Современные технологии" width="70" /></a>
-                    <h2>Современные технологии</h2>
+                    <h2 class="section-tech">Современные технологии</h2>
                     <p class="title-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                 </li>
             </ul>
         </div>
             </section>
-            <section>
-                    <h2 class="list">Чем мы занимаемся</h2>
-                    <ul>
+            <section class="section-list">
+                <div class="container">
+                    <h2 class="section-list-centred">Чем мы занимаемся</h2>
+                    <ul class="list-container">
                         <li>
                             <a href=""><img src="./images/box1.svg" alt="Десктопные приложения" width="370" /></a>
                             <p class="list-title">Десктопные приложения</p>
@@ -82,9 +84,11 @@
                             <p class="list-title">Дизайнерские решения</p> 
                         </li>
                     </ul>
+                </div>
             </section>
-            <section>
-                <h2>Наша команда</h2>
+            <section class="section-links">
+                <div class="container">
+                <h2 class="section-title-centred">Наша команда</h2>
         <ul class="social-links">
               <li>  
             <a href=""><img src="./images/john.svg" alt="John Smith"/></a>
@@ -133,10 +137,12 @@
             <li><a href="https://www.linkedin.com/" class="link">linkedin</a></li>
             
         </ul>
+    </div>
             </section>
-            <section>
-        <h2>Постоянные клиенты</h2>
-        <ul>
+            <section class="section-description">
+                <div class="container">
+        <h2 class="section-centred">Постоянные клиенты</h2>
+        <ul class="company">
             <li>
                 <a href=""><img src="./images/Client1.svg" alt="YA & CO"/></a>
             </li>
@@ -156,9 +162,10 @@
                 <a href=""><img src="./images/Client6.svg" alt="Company Tag Line"/></a>
             </li>
         </ul>
+    </div>
     </section>
 </main>
-<footer>
+<footer class="container">
     <address class="down">
     <a href="./index.html" class="logo">
         <span class="accent-logo">Web</span> 
